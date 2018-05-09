@@ -18,4 +18,4 @@ VOLUME ["/api"]
 
 EXPOSE 3000
 
-CMD [ "node" ]
+ENTRYPOINT [ "node" ]
